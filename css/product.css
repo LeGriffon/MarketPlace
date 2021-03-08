@@ -1,0 +1,24 @@
+body {
+    background: #030200;
+    font-family: "Nunito", sans-serif;
+}
+
+
+#mainNavbar {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: siler;
+}
+.navbar-brand img {
+    filter: invert(90%);
+}
+
+.navbar.scrolled {
+    background: rgb(6, 31, 46);
+    transition: background 500ms;
+}

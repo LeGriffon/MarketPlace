@@ -1,0 +1,35 @@
+body {
+    font-family: Roboto;
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#mainNavbar {
+    font-size: 1.2rem;
+    font-weight: 200;
+    background-color: rgb(6, 31, 46);
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: siler;
+}
+.navbar-brand img {
+    filter: invert(90%);
+}
+
+h1 {
+    color: black;
+    padding: 5px 5px 5px 5px;
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+p {
+    padding: 5px 5px 5px 15px;
+    margin-left: 30px;
+    font-weight: lighter;
+}

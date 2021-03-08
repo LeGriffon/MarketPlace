@@ -1,0 +1,82 @@
+body {
+    background: #030200;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: siler;
+}
+.navbar-brand img {
+    filter: invert(90%);
+}
+
+.navbar.scrolled {
+    background: rgb(6, 31, 46);
+    transition: background 500ms;
+}
+
+
+.starrating > input {display: none;}  /* Remove radio buttons */
+
+.starrating > label:before { 
+  content: "\f005"; /* Star */
+  margin: 2px;
+  font-size: 2em;
+  font-family: "Font Awesome 5 Pro";
+}
+
+.starrating > label
+{
+  color: #222222; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label
+{   color: #ffca08 ; 
+    font-weight: 900;
+} /* Set yellow color when star checked */
+
+.starrating > input:hover ~ label
+{   color: #ffca08 ;  
+    font-weight: 900;
+} /* Set yellow color when star hover */
+
+.containerdiv {
+    border: 0;
+    float: left;
+    position: relative;
+    width: 150px;
+  } 
+  .cornerimage {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+   } 
+.ratingstar{
+     max-width: 150px;
+   }
+
+.usercontainerdiv {
+    border: 0;
+    float: left;
+    position: relative;
+    width: 100px;
+  } 
+.usercornerimage {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+   } 
+.userratingstar{
+     max-width: 100px;
+   }
